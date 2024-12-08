@@ -1,5 +1,5 @@
 // Set the target date for the event
-const eventDate = new Date("2024-01-15T23:59:59").getTime();
+const eventDate = new Date("2025-01-15T23:59:59").getTime();
 
 // Calculate preloaded timer values
 function calculateTimeLeft() {
