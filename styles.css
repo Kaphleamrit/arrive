@@ -1,0 +1,67 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300;400&display=swap');
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url('./bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* Container styling */
+.container {
+  text-align: center;
+  padding: 20px;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Title styling */
+.title {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Timer styling */
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.time-box {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.time-box span {
+  display: block;
+}
+
+.label {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Message styling */
+.message {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
